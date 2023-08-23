@@ -10,7 +10,7 @@ This sample project uses sqlite as the relational database. To use a different d
 4. Create database prisma `npm run prisma:push`
 5. Start server: `npm run start:dev`
 
-### Teste
+### Test
 
 1. Run the command `npm run test`
 

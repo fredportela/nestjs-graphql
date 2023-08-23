@@ -1,0 +1,21 @@
+type Cubo {
+  id: ID!
+  altura: Float!
+  largura: Float!
+  comprimento: Float!
+}
+
+input NewCubo {
+  altura: Float!
+  largura: Float!
+  comprimento: Float!
+}
+
+type Query {
+  cubo(id:ID!): Cubo!
+  volume(id:ID!): Float!
+}
+
+type Mutation {
+  cadastrarCubo(altura:Float!, largura: Float!, comprimento: Float!): Cubo!
+}
